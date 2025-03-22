@@ -1,15 +1,15 @@
 {
-  "name": "nodejs",
+  "name": "tiktok-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Un bot Telegram pour télécharger des vidéos TikTok sans filigrane",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6"
+    "axios": "^0.27.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.54.0"
   }
 }
